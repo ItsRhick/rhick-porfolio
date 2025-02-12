@@ -12,12 +12,10 @@
 </head>
 <body>
   <!-- Header -->
-  <header>
-    <h1 class="logo">Rhick.</h1>
+  <header class="active">
+    <a href="#" class="logo">Rhick.</a>
 
-    <button id="menu-icon">
-      <i class='bx bx-menu'></i>
-    </button>
+    <i class='bx bx-menu' id="menu-icon"></i>
 
     <nav>
       <a href="#" class="active">Home</a>
@@ -28,22 +26,32 @@
     </nav>
   </header>
 
+  <!-- Bars Background -->
+  <div class="bars-box active">
+    <div class="bar" style="--i:6"></div>
+    <div class="bar" style="--i:5"></div>
+    <div class="bar" style="--i:4"></div>
+    <div class="bar" style="--i:3"></div>
+    <div class="bar" style="--i:2"></div>
+    <div class="bar" style="--i:1"></div>
+  </div>
+
   <!-- Home Section -->
   <section class="home active">
     <div class="home-detail">
       <h1>Daiz, Rhick Daniel</h1>
       <h2>I'm a
-        <span style="--i:3;" data-text="Developer">Developer</span>
+        <span style="--i:3;" data-text="Front-End Dev">Front-End Dev</span>
         <span style="--i:2;" data-text="Designer">Designer</span>
-        <span style="--i:1;" data-text="Front-End Dev">Front-End Dev</span>
+        <span style="--i:1;" data-text="Developer">Developer</span>
       </h2>
       <p>I am a web developer passionate about creating functional, user-friendly, and visually appealing web applications. I focus on clean code and professional design to deliver great user experiences.</p>
       <div class="btn-sci">
-        <a href="#" class="btn">Download CV</a>
+        <a href="https://sapphire-prissie-51.tiiny.site" target="_blank" class="btn">Download CV</a>
         <div class="sci">
-          <a href="#"><i class='bx bxl-github'></i></a>
-          <a href="#"><i class='bx bxl-linkedin'></i></a>
-          <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+          <a href="https://github.com/ItsRhick" target="_blank"><i class='bx bxl-github'></i></a>
+          <a href="https://www.linkedin.com/in/rhick-daniel-daiz-2a8153241/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+          <a href="https://www.facebook.com/ItsRhickXD" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
         </div>
       </div>
     </div>
@@ -56,6 +64,309 @@
       </div>
     </div>
   </section>
+
+  <!-- Services Section -->
+   <section class="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+        <div class="services-box">
+            <div class="icon">
+                <i class='bx bx-code-alt'></i>
+                <a href="#"><i class='bx bx-arrow-back'></i></a>
+            </div>
+            <h3>Web Development</h3>
+            <p>I create responsive, high-performance websites tailored to your needs. Whether it’s a custom site, e-commerce platform, or web app, I ensure a seamless user experience across all devices. With expertise in HTML, CSS, and JavaScript, I build secure, fast, and easy-to-manage websites that help achieve your business goals.</p>
+        </div>
+
+        <!-- <div class="services-box">
+          <div class="icon">
+              <i class='bx bx-code-alt'></i>
+              <a href="#"><i class='bx bx-arrow-back'></i></a>
+          </div>
+          <h3>Web Development</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente minima voluptate cupiditate dolorem animi quo repudiandae, magnam harum accusamus ut veniam laborum magni voluptatum quibusdam earum ad delectus ea totam.</p>
+      </div>
+    </div> -->
+    
+   </section>
+
+   <!-- Resume Section -->
+   <section class="resume">
+    <div class="resume-container">
+      <div class="resume-box">
+        <h2>Why Hire Me?</h2>
+        <p class="desc">I create responsive, user-friendly websites that are secure, fast, and visually appealing. With a focus on quality and the latest trends, I ensure your site stands out. From start to finish, I work closely with you and provide ongoing support for long-term success.</p>
+        <button class="resume-btn active">Experience</button>
+        <button class="resume-btn">Education</button>
+        <button class="resume-btn">Skills</button>
+        <button class="resume-btn">About Me</button>
+      </div>
+
+      <div class="resume-box">
+        <div class="resume-detail experience active">
+          <h2 class="heading">My <span>Experience</span></h2>
+          <p class="desc"></p>
+          <div class="resume-list">
+            <div class="resume-item">
+              <p class="year">April 2022 - November 2022</p>
+              <h3>Front-End Developer</h3>
+              <p class="company">Pliagility</p>
+              <p>Collaborated with the development team to ensure the designs were implemented seamlessly and met the needs of the user.</p>
+            </div>
+            <div class="resume-item">
+              <p class="year">May 2020 - July 2021</p>
+              <h3>Cash Manager</h3>
+              <p class="company">Kiyuri's Bubble Heaven</p>
+              <p>Developed strong customer service, cash handling, and inventory management skills.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-detail education">
+          <h2 class="heading">My <span>Education</span></h2>
+          <p class="desc"></p>
+          <div class="resume-list">
+            <div class="resume-item">
+              <p class="year">2020 - Present</p>
+              <h3>College Degree</h3>
+              <p class="company">Holy Angel University</p>
+              <p>Bachelor of Science in Information Technology, Major in Web Developmen</p>
+            </div>
+            
+            <div class="resume-item">
+              <p class="year">2018 - 2020</p>
+              <h3>Senior High School</h3>
+              <p class="company">Republic Central Colleges</p>
+              <p>Accountancy Business Management (ABM) </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-detail skills">
+          <h2 class="heading">My <span>Skills</span></h2>
+          <p class="desc">I specialize in these programming languages.</p>
+          <div class="resume-list">
+            <div class="resume-item">
+              <i class='bx bxl-html5' ></i>
+              <span>HTML</span>
+            </div>
+            
+            <div class="resume-item">
+              <i class='bx bxl-css3' ></i>
+              <span>CSS</span>
+            </div>
+
+            <div class="resume-item">
+              <i class='bx bxl-javascript' ></i>
+              <span>JavaScript</span>
+            </div>
+
+            <div class="resume-item">
+              <i class='bx bxl-vuejs' ></i>
+              <span>Vue.js</span>
+            </div>
+
+            <div class="resume-item">
+              <i class='bx bxl-angular' ></i>
+              <span>Angular</span>
+            </div>
+
+            <div class="resume-item">
+              <i class='bx bxl-nodejs' ></i>
+              <span>Node.js</span>
+            </div>
+
+            <div class="resume-item">
+              <i class='bx bxl-php' ></i>
+              <span>PHP</span>
+            </div>
+
+            <div class="resume-item">
+              <i class='bx bxl-python' ></i>
+              <span>Python</span>
+            </div>
+
+            <div class="resume-item">
+              <i class='bx bxl-java' ></i>
+              <span>Java</span>
+            </div>
+
+            <div class="resume-item">
+              <i class='bx bxl-postgresql' ></i>
+              <span>SQL</span>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="resume-detail about">
+          <h2 class="heading">About <span>Me</span></h2>
+          <p class="desc">A Front-End Web Developer skilled in HTML, CSS, and JavaScript. Focused on building responsive and user-friendly websites. Passionate about writing clean, efficient code and continuously improving through learning new technologies and best practices. Dedicated to collaborating with cross-functional teams to develop innovative solutions that exceed client expectations.</p>
+          <div class="resume-list">
+            <div class="resume-item">
+              <p>Name: <span>Daiz, Rhick Daniel</span></p>
+            </div>
+
+            <div class="resume-item">
+              <p>Gender: <span>Male</span></p>
+            </div>
+
+            <div class="resume-item">
+              <p>Age: <span>22 Years Old</span></p>
+            </div>
+
+            <div class="resume-item">
+              <p>Status: <span>Single</span></p>
+            </div>
+
+            <div class="resume-item">
+              <p>City: <span>Angeles City</span></p>
+            </div>
+
+            <div class="resume-item">
+              <p>Nationality: <span>Filipino</span></p>
+            </div>
+
+            <div class="resume-item">
+              <p>Experience: <span>1 Year</span></p>
+            </div>
+
+            <div class="resume-item">
+              <p>Full Time: <span>Available</span></p>
+            </div>
+
+            <div class="resume-item">
+              <p>Freelance: <span>Available</span></p>
+            </div>
+
+            <div class="resume-item">
+              <p>Phone: <span>(+63) 999 996 1281</span></p>
+            </div>
+
+            <div class="resume-item">
+              <p>Email: <span>rhickdanieldaiz23@gmail.com</span></p>
+            </div>
+
+            <div class="resume-item">
+              <p>Languages: <span>English, Tagalog</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <!-- Portfolio Section -->
+    <section class="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <div class="portfolio-detail active">
+            <p class="numb">01</p>
+            <h3>Adoption Center</h3>
+            <p>This front-end web project focuses on pet adoption, offering a user-friendly experience to explore available pets and learn about adoption procedures. 
+               It features a clean design, responsive layout, and smooth navigation to enhance user engagement.</p>
+            <div class="tech">
+              <p>HTML, CSS</p>
+            </div>
+            <div class="live-github">
+              <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+              <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">02</p>
+            <h3>New Project</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="tech">
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+              <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+            </div>
+          </div>
+
+          <div class="portfolio-detail">
+            <p class="numb">03</p>
+            <h3>New Project</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <div class="tech">
+              <p>HTML, CSS</p>
+            </div>
+            <div class="live-github">
+              <a href="#"><i class='bx bx-arrow-back' ></i><span>Live Project</span></a>
+              <a href="https://github.com/ItsRhick/simple-animal-adoption" target="_blank"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <!-- Images Carousel -->
+           <div class="portfolio-carousel">
+            <div class="img-slide">
+              <div class="img-item">
+                <img src="/images/project1.png" alt="Frontend Pet Adoption Website">
+              </div>
+            </div>
+           </div>
+
+           <div class="navigation">
+            <button class="arrow-left disabled"><i class='bx bx-chevron-left' ></i></button>
+            <button class="arrow-right"><i class='bx bx-chevron-right' ></i></button>
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+      <div class="contact-container">
+        <div class="contact-box">
+          <h2>Let's Work Together</h2>
+          <p class="desc">Looking for a skilled web developer? I create responsive, visually striking websites that deliver results. With a focus on quality, efficiency, and collaboration, I’ll bring your vision to life and ensure your project exceeds expectations. Let’s work together to build an unforgettable online presence!</p>
+          
+          <div class="contact-detail">
+            <i class='bx bxs-phone' ></i>
+            <div class="detail">
+              <p>Phone</p>
+              <p>(+63) 999 996 1281</p>
+            </div>
+          </div>
+    
+          <div class="contact-detail">
+            <i class='bx bxs-envelope' ></i>
+            <div class="detail">
+              <p>Email</p>
+              <p><a href="mailto:rhickdanieldaiz23@gmail.com" target="_blank">rhickdanieldaiz23@gmail.com</a></p>
+            </div>
+          </div>
+    
+          <div class="contact-detail">
+            <i class='bx bxs-map' ></i>
+            <div class="detail">
+              <p>Address</p>
+              <p>Angeles City, Pampanga</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="contact-box">
+          <form action="">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+            <div class="field-box">
+              <input type="text" placeholder="Full Name" required>
+              <input type="email" placeholder="Email Address" required>
+              <input type="text" placeholder="Phone Number" required>
+              <input type="text" placeholder="Email Subject" required>
+              <textarea name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>    
 
   <!-- Script JS -->
   <script src="script.js"></script>
