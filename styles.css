@@ -772,7 +772,37 @@
   color: var(--white-color);
 }
 
-/* Breakpoints */
+.testimonial-section {
+    background: var(--bg-color);
+    padding: 5rem 9%;
+    margin: 5rem 0;
+    border-radius: 1rem;
+}
+
+.testimonial-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.testimonial-item {
+    background: var(--gray-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-text {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.testimonial-author {
+    font-size: 1.4rem;
+    text-align: right;
+    color: var(--main-color);
+}
+
 @media screen and (max-width: 1200px) {
   html {
     font-size: 55%;
